@@ -22,11 +22,11 @@ def main():
 
             new_list_1 = list(map(int, list_1))
             new_list_1.sort()
-            print(new_list_1)
+            #print(new_list_1)
 
             new_list_2 = list(map(int, list_2))
             new_list_2.sort()
-            print(new_list_2)
+            #print(new_list_2)
 
         distance = sum(abs(new_list_1[i] - new_list_2[i]) for i in range(len(new_list_1)))
         print(f"Total distance between coordinates: {distance}")
