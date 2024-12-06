@@ -5,7 +5,7 @@ def main():
     list_1 = []
     list_2 = []
 
-    with open("ex-1/input.txt") as fp:
+    with open("../input.txt") as fp:
         for line in fp:
 
         # Testing with first line of input.txt
